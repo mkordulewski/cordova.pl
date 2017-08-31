@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^((.*)\.)?(cordova\.pl)$ [NC]
+RewriteRule ^ http://cordova.apache.org [R=301,L,NE]
